@@ -2,9 +2,10 @@
 
 ## Opis
 
-Program służy do wczytywania, rozwiązywania oraz zapisywania labiryntów. Jest on drugą wersją tego programu: https://github.com/bciupak/PROJEKT-JIMP-2. Aplikacja umożliwia pracę z plikami tekstowymi oraz binarnymi, a także oferuje możliwość zapisu rozwiązania labiryntu w formie tekstowej lub graficznej. Program jest wyposażony w intuicyjny graficzny interfejs użytkownika (GUI), który umożliwia łatwe zarządzanie plikami labiryntów oraz wyświetla powiadomienia o sukcesach i błędach operacji.
+Program służy do wczytywania, rozwiązywania oraz zapisywania labiryntów. Jest on drugą wersją programu dostępnego na GitHubie: [PROJEKT-JIMP-2](https://github.com/bciupak/PROJEKT-JIMP-2). Aplikacja umożliwia pracę z plikami tekstowymi oraz binarnymi, a także oferuje możliwość zapisu rozwiązania labiryntu w formie tekstowej lub graficznej. Program posiada intuicyjny graficzny interfejs użytkownika (GUI), który pozwala na łatwe zarządzanie plikami labiryntów oraz wyświetla powiadomienia o sukcesach i błędach operacji.
 
 ### Główne funkcjonalności:
+
 - **Wczytywanie labiryntów** z plików tekstowych (.txt) oraz binarnych (.bin).
 - **Rozwiązywanie labiryntów** przy użyciu wbudowanych algorytmów.
 - **Zapis rozwiązania** w formie tekstowej lub graficznej (obraz labiryntu z zaznaczoną ścieżką).
@@ -13,12 +14,23 @@ Program służy do wczytywania, rozwiązywania oraz zapisywania labiryntów. Jes
 ## Interfejs użytkownika
 
 Graficzny interfejs użytkownika zawiera:
-- Menu z opcjami do wczytywania i zapisywania plików.
-- Przycisk do rozwiązywania labiryntu.
-- Panel wydarzeń, w którym wyświetlane są informacje o wykonanych operacjach.
-- Pole graficzne, w którym wyświetlany jest wczytany labirynt, a po jego rozwiązaniu – zaznaczona ścieżka.
 
-Użytkownik wybiera pliki do wczytania lub zapisania przy użyciu menu. Labirynt można rozwiązać po jego wczytaniu, a wyniki są zapisywane w wybranej formie (tekstowej lub graficznej).
+- **Menu** z opcjami do wczytywania i zapisywania plików.
+- **Przycisk do rozwiązywania labiryntu**.
+- **Panel wydarzeń**, w którym wyświetlane są informacje o wykonanych operacjach.
+- **Pole graficzne**, w którym wyświetlany jest wczytany labirynt, a po jego rozwiązaniu – zaznaczona ścieżka.
+
+Użytkownik może wybierać pliki do wczytania lub zapisania przy użyciu menu. Labirynt można rozwiązać po jego wczytaniu, a wyniki zapisać w wybranej formie (tekstowej lub graficznej).
+
+### Zapis labiryntu w formie tekstowej
+
+Labirynt zapisywany jest jako siatka znaków, gdzie:
+- `X` oznacza ścianę,
+- puste miejsca oznaczają możliwe drogi,
+- `P` to punkt startowy,
+- `K` to punkt końcowy.
+
+Przykładowy format labiryntu w formie tekstowej znajduje się w pliku test.txt
 
 ## Wymagania systemowe
 
