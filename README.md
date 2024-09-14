@@ -40,7 +40,7 @@ Przykładowy format labiryntu w formie tekstowej znajduje się w pliku test.txt
 ## Szczegółowa Dokumentacja
 
 Więcej szczegółów technicznych dotyczących implementacji klas, metod i algorytmów rozwiązywania labiryntów znajduje się w dokumentach:
-- **Labirynt - Dokumentacja Funkcjonalna** (PDF)
+- **DF** (PDF)
 - **Labirynt - GUI** (PDF)
 
 Te dokumenty opisują dokładną strukturę kodu oraz wyjaśniają, jak działają poszczególne elementy programu.
